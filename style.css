@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: black;
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;  
+  border: 1px solid rgb(179, 21, 21);
+  position: static;
+        
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+
+}
+.navbar ul li a{
+    margin: 20px;
+    color: rgb(99, 36, 2);
+    font-size: 30px;
+}
+
+.navbar ul li a:hover{
+    background-color: rgb(190, 217, 217);
+    box-shadow: 0px 3px 6px 4px rgb(247, 235, 235);
+}
+
+#home{ 
+   position: relative; font-size: 30px; 
+    display: flex;
+    height: 700px;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ color: aqua;
+  }
+  .img1{
+   position: relative; 
+   height: 500px;
+   width: 500px;
+   top: 150px;
+   left: -400px;
+   border-radius: 10%;
+   border: 5px solid red;
+   
+  }
+  .img2{
+    position: relative; 
+    height: 500px;
+    width: 500px;
+    top: 150px;
+    left: 00px;
+    border-radius: 10%;
+    border: 5px solid red;
+    
+  }
+  #Skills{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 35px;
+   color: yellow;
+   margin: 10px;
+   justify-content: center;
+   align-items: center;
+flex-direction: column;
+   display: flex;
+
+}
+#Skills img{
+  position: relative;  border: 5px solid red;
+    display: flex;
+    height: 200px;
+    width: 200px;
+    border-radius:  10%;
+    
+
+}
+#Education{
+   color: yellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 35px; 
+    width: 100%;
+  height: 400px;
+display: flex;
+
+
+
+}
+#Education ul {
+margin: 30px;
+    font-size: 30px;
+    color: white;
+      
+}
+#Education ul li{
+    margin: 30px;
+}
+#Projects{
+ color:yellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: 35px;
+ display: flex;
+ 
+}
+#Projects ul {
+   margin: 30px; font-size: 30px;
+   color: white;
+}
+#Projects img{
+   border: 5px solid red;
+   border-radius: 10%;
+}
+#Contact{
+    color: yellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+
+}
+#Contact ul{
+    color: white;
+    margin: 30px;
+    
+}
+
+
+    
+   
+
+
+
+  
+
+
+
